@@ -13,7 +13,7 @@ const io = require("socket.io")(server, {
 
 app.use(cors());
 
-const PORT = process.env.POST || 5000;
+const PORT = process.env.POST || 8000;
 
 // app.use(express.static(__dirname + "/public"));
 
